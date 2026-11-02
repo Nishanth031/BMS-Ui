@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data: saved battery profiles, and databases with their automatic backups
+battery_catalog.json
+*.duckdb
+*.duckdb.wal
+
+# Secrets, if any are ever added
+.env
